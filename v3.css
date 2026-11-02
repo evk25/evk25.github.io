@@ -180,6 +180,10 @@ h1 {
   justify-items: center;
 }
 
+/* .media:empty {
+  display: none
+} */
+
 .media figcaption {
   font-size: 0.85rem;
   color: var(--content-text-color);
@@ -213,10 +217,7 @@ email {
   .block {
     grid-template-columns: 1fr;
   }
-  .media {
-    order: 2;           /* ensure media appears AFTER the text */
-  }
   .text {
-    order: 1;
+    padding-right: 0;
   }
 }
